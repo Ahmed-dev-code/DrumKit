@@ -1,0 +1,42 @@
+:root{
+    --white:#F8F8F8;
+    --yellow: #E3B04B;
+    --black: #2B2B28;
+}
+
+
+
+body{
+    margin: 0;
+    background: url(asba-drums-v-OmTVRhZzY-unsplash.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+}   
+
+h4{
+    color: var(--white);
+}
+p{
+    color: var(--yellow);
+}
+
+.container{
+    width: 90vw;
+    margin: auto;
+    background: rgb(80, 80, 78);
+    display: flex;
+    justify-content: space-around;
+}
+
+.key-holder{
+    width: 10%;
+    text-align: center;
+    border: 2px solid rgb(240, 223, 127);
+    background: rgba(0, 0, 0, 0.7);
+
+    cursor:pointer ;
+}
